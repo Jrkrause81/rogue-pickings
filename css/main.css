@@ -1,0 +1,176 @@
+@@font-face {
+  font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+/** HEADER STRUCTURE **/
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/** SETTING FONT FOR MOST OF THE SITE **/
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  background-color: #f2e6d9;
+}
+
+h1, h3, h4 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+  padding: 0 30px;
+}
+/** HEADER AND NAV GRID **/
+header {
+  height: 110px;
+  border-bottom: 3px solid #77a466;
+  margin: 0 auto;
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+  padding: 40px 0;
+}
+
+header span {
+  color: #77a466;
+}
+
+header nav {
+  float: right;
+  padding-top: 45px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  text-transform: uppercase;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #77a466;
+}
+/** GRID FOR TOP AND BOTTOM SECTIONS **/
+.top-section, .bottom-section {
+  margin: 0 auto;
+  clear: both;
+}
+
+.hero-image {
+  height: auto;
+  float: left;
+}
+/** PEAS **/
+.hero-image img {
+  border-bottom: 3px solid #77a466;
+}
+/** MAIN TITLE GRID AND STYLING **/
+.main-title {
+  height: auto;
+  float: left;
+}
+
+.main-title h3 {
+  text-align: left;
+  color: #77a466;
+  padding: 10px 0;
+}
+
+.main-title p {
+  text-align: left;
+  padding: 0;
+  font-size: 16px;
+  line-height: 25px;
+}
+/** SETTING GRIDS FOR BOTTOM THREE SECTIONS W/ BORDER **/
+.section-one, .section-two, .section-three {
+  width: 380px;
+  height: 175px;
+  float: left;
+  margin-top: 35px;
+  padding-top: 25px;
+  border-top: 2px solid #e0e0eb;
+}
+
+.section-two {
+  border-left: 2px solid #e0e0eb;
+  border-right: 2px solid #e0e0eb;
+}
+
+.section-two h4, .section-three h4 {
+  padding: 3px 0px 15px 30px;
+}
+
+.section-three {
+  width: 425px;
+}
+/** MENU GRID AND STYLING **/
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  color: #77a466;
+  padding: 23px 0 0 0;
+}
+/** TEXT STYLING FOR REVIEWS **/
+.reviews {
+  font-size: 16px;
+  line-height: 21px;
+}
+/** TEXT STYLING FOR PHYSICAL ADDRESS **/
+.address {
+  font-size: 16px;
+  line-height: 24px;
+}
+/** GRID AND STYLING FOR FOOTER **/
+footer {
+  height: 75px;
+  clear: both;
+  border-top: 2px solid #e0e0eb;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer h4 {
+  font-size: 16px;
+  line-height: 23px;
+  padding: 20px;
+}
+
+footer span {
+  font-family: 'Wisdom Script';
+  color: #77a466;
+  text-transform: lowercase;
+  font-size: 24px;
+}
+/** LINK TO PRODUCE WEBSITE **/
+footer span a {
+  text-decoration: none;
+  color: #77a466;
+}
